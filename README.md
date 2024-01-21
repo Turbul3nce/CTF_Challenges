@@ -1,3 +1,5 @@
 # Check these out!
-##### Programming and web security. 
+##### Prep for OSWE exam.
+##### Scripting and web security. 
 ##### Two birds with one stone. 
+ 
