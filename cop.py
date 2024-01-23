@@ -30,8 +30,8 @@ def exploit(url):
     response = requests.get(final_url)
 
  def results():
-    check_url = f"{url}/static/flag.txt"
-    response = requests.get(check_url)
+    exploit_results = f"{url}/static/flag.txt"
+    response = requests.get(exploit_results)
     print(f"Checking if the exploit worked")
     print(response.text)
 
