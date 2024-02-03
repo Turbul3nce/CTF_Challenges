@@ -12,7 +12,7 @@ So, to poison the cache, we can make a GET request with our malicious headers to
 Then we make a POST request to /submit. The submit endpoint will make a GET request automatically to the new poisoned id, running our JavaScript. We can navigate to the new id to find the contents of the "hidden" message 3.
 
 Set Up: 
-1. Burpsuite Repeater. GET requests to /letters?id=new & POST request to /submit.
+1. Burpsuite Repeater: GET requests to /letters?id=new & POST request to /submit.
 2. Apache2 server hosting main.css & viewletter.js(malicious)
 3. tunnel using ssh -R 80:localhost:80 localhost.run -i /home/$user/.ssh/id_rsa
 
