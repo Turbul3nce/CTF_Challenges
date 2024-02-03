@@ -8,7 +8,8 @@ Welcome to my solved CTF Challenges! This collection includes notes, files, and 
 
 Explore a variety of challenges ranging from web exploitation to binary analysis. Each directory contains the necessary files, write-ups, and additional notes for a deeper understanding.
 
-- [Easter_Bunny](web-exploitation))
+- [easter bunny](web-exploitation)
+
 
 ## Usage
 
