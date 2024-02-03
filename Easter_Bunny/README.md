@@ -14,4 +14,6 @@ We know the flag can be found at the message/3 endpoint. The vulnerability in th
 
 It generates a random ID and sends a GET request to `http://{base_url}/message/{random_id}`, extracting the "count" field from the JSON response. The script then constructs a URL for `http://{base_url}/letters?id={id_}` and sends a GET request with our headers, attempting to manipulate the cache. Debugging information is printed, and success or failure is determined by whether the response text contains the specified value in the "X-Forwarded-Host" header. The `hack()` function orchestrates this process, incrementing IDs, making cache requests, and ultimately sending a POST request to `http://{base_url}/submit` with a predefined message. Debugging details for the submit request are printed.
 
-### [More Information](https://portswigger.net/web-security/host-header)
+## More Information
+
+[Host Header Attacks](https://portswigger.net/web-security/host-header)
