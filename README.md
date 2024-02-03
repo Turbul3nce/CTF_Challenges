@@ -35,15 +35,10 @@ Find comprehensive notes covering various topics related to cybersecurity, penet
 - [Binary Exploitation Tips](notes/binary-exploitation-tips.md)
 - [Networking Concepts](notes/networking-concepts.md)
 
-## How to Use
+## Usage
 
 Feel free to explore, learn, and contribute to this repository. If you have any questions or improvements, open an issue or submit a pull request. Let's collaborate and enhance our skills together!
 
 ## Acknowledgments
 
-A shoutout to the amazing CTF community and platforms like HackTheBox for providing challenging environments to sharpen our cybersecurity skills.
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE).
-
+A special thanks to the people in the HackTheBox forums for providing hints for various challeneges. 
