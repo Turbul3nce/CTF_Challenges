@@ -1,8 +1,8 @@
-# CTF Challenges Repository
+# HTB WEB Challenges 
 
 ## Overview
 
-Welcome to my CTF Challenges Repository! This collection includes notes, files, and exploits that I've used to tackle diverse challenges on platforms like HackTheBox and other CTFs.
+Welcome to my solved CTF Challenges! This collection includes notes, files, and exploits that I've used to tackle challenges on platforms like HackTheBox and other CTFs.
 
 ## Table of Contents
 
@@ -18,22 +18,6 @@ Explore a variety of challenges ranging from web exploitation to binary analysis
 - [Binary Analysis](binary-analysis)
 - [Forensics](forensics)
 - [Networking](networking)
-
-## Exploits
-
-Discover detailed write-ups and code snippets for exploits used to conquer specific challenges. These exploits are crafted to showcase effective techniques for overcoming security barriers.
-
-- [Challenge A Exploit](exploits/challenge-a)
-- [Challenge B Exploit](exploits/challenge-b)
-- [Challenge C Exploit](exploits/challenge-c)
-
-## Notes
-
-Find comprehensive notes covering various topics related to cybersecurity, penetration testing, and exploitation techniques. These notes serve as a valuable resource for learning and reference.
-
-- [Penetration Testing Fundamentals](notes/penetration-testing-fundamentals.md)
-- [Binary Exploitation Tips](notes/binary-exploitation-tips.md)
-- [Networking Concepts](notes/networking-concepts.md)
 
 ## Usage
 
