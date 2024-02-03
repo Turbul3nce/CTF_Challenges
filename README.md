@@ -8,10 +8,7 @@ Welcome to my solved CTF Challenges! This collection includes notes, files, and 
 
 Explore a variety of challenges ranging from web exploitation to binary analysis. Each directory contains the necessary files, write-ups, and additional notes for a deeper understanding.
 
-- [Web Exploitation](web-exploitation)
-- [Binary Analysis](binary-analysis)
-- [Forensics](forensics)
-- [Networking](networking)
+- [Easter_Bunny](web-exploitation))
 
 ## Usage
 
