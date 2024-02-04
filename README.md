@@ -1,4 +1,4 @@
-# HTB WEB Challenges 
+# HTB Challenges 
 <p align="center">
 
 <img src="https://github.com/RosePwns/HTB_Challenges/blob/main/assets/rosehacks.PNG"> 
