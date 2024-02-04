@@ -7,7 +7,7 @@
 
 ## Overview
 
-Welcome to my solved WEB Challenges! This collection includes notes, files, and exploits that I've used to tackle challenges on platforms like HackTheBox and other CTFs.
+Welcome to my solved HackTheBox Challenges! This collection includes notes, artifacts, and exploits that I've used to tackle challenges on platforms like HackTheBox and other CTFs.
 
 ## Challenges
 
