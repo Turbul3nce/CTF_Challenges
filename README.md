@@ -13,6 +13,8 @@ Explore a variety of web challenges ranging from SSTI, web cache poisoning, SQL 
 <summary> Web </summary>
   
 |No.|Column 1|
+|No.|Column 1|Column 2|Column 3|
+|:-:|:-------:|:-------:|:-------:|
 - [Easter Bunny](/Easter_Bunny)
 - [Baby Interdimensional Internet](/BII_exploit.py)
 - [Cult of Pickles](Cult_of_Pickles)
