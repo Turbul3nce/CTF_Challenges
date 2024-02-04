@@ -6,7 +6,7 @@
 
 ## Description
 
-So, the functionality of the application seems to load and render templates either locally or remotely, depending on the ?use_remote={true/false} parameter. This lead me to want to check for SSTI vulnerability. I was able to set up a test.go template on my server with the contents {{.FetchServerInfo "cd /;ls -la"}}. Once the server loaded and executed my template code, I recieved the contents of the / directory, revealing code execution Just for context this is a CTF. What type of vulnerabilities were displayed here?.
+So, the functionality of the application seems to load and render templates either locally or remotely, depending on the ?use_remote={true/false} parameter. This lead me to want to check for SSTI vulnerability. After reviewing the source code provided by HackTheBox, we know it is using the Go templating language. I was able to set up a test.go template on my server with the contents {{.FetchServerInfo "cd /;ls -la"}}. Once the server loaded and executed my template code, I recieved the contents of the / directory, revealing code execution Just for context this is a CTF. What type of vulnerabilities were displayed here?.
 
 ## Set Up
 
