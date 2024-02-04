@@ -1,4 +1,4 @@
-# Vulnerable Host Header => Web Cache Poisoning
+# Prototype Pollution
 
 ## Framework
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-The source code gave away that the application may be vulnerable to prototype pollution. A quick search for a prototype pollution PoC reveals a script on hacktricks. I take and modify the script a bit 
+The source code gave away that the application may be vulnerable to prototype pollution. A quick search for a prototype pollution PoC reveals a script on hacktricks. I take and modify the script a bit to fit my needs, obtaining the flag. 
 
 ## Exploit
 
