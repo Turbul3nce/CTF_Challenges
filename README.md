@@ -10,7 +10,7 @@ Explore a variety of web challenges ranging from SSTI, web cache poisoning, SQL 
 
 - [Easter Bunny](/Easter_Bunny)
 - [Baby Interdimensional Internet](/BII_exploit.py)
-- [Cult of Pickles](Cult_of_Pickles/cop_exploit.py)
+- [Cult of Pickles](Cult_of_Pickles)
 - [Gunship](/gunship_exploit.py)
 - [Spookifier](/spookifier_exploit.req)
 
