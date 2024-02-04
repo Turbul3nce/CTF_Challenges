@@ -1,7 +1,7 @@
 # HTB WEB Challenges 
 <p align="center">
 
-<img src=""> 
+<img src="/assets/rosehacks.png"> 
   
 </p>
 
