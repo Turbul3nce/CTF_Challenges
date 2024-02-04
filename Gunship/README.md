@@ -1,12 +1,13 @@
 # Prototype Pollution
 
+## Description
+
+The source code gave away that the application may be vulnerable to prototype pollution. A quick search for a prototype pollution PoC reveals a script on hacktricks. I take and modify the script a bit to fit my needs, obtaining the flag. 
+
 ## Framework
 
 - NodeJS
 
-## Description
-
-The source code gave away that the application may be vulnerable to prototype pollution. A quick search for a prototype pollution PoC reveals a script on hacktricks. I take and modify the script a bit to fit my needs, obtaining the flag. 
 
 ## Exploit
 
