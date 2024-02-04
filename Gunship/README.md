@@ -15,5 +15,5 @@ The script takes advantage of a prototype pollution vulnerability in a web appli
 
 ## More Information
 
-[Host Header Attacks](https://portswigger.net/web-security/host-header)
+[NodeJS Prototype Pollution](https://book.hacktricks.xyz/pentesting-web/deserialization/nodejs-proto-prototype-pollution)
 
