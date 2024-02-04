@@ -12,8 +12,8 @@ We know the flag can be found at the message/3 endpoint. The vulnerability in th
 
 ## Exploit
 
-It generates a random ID and sends a GET request to `http://{base_url}/message/{random_id}`, extracting the "count" field from the JSON response. The script then constructs a URL for `http://{base_url}/letters?id={id_}` and sends a GET request with our headers, attempting to manipulate the cache. Debugging information is printed, and success or failure is determined by whether the response text contains the specified value in the "X-Forwarded-Host" header. The `hack()` function orchestrates this process, incrementing IDs, making cache requests, and ultimately sending a POST request to `http://{base_url}/submit` with a predefined message. Debugging details for the submit request are printed.
+It sends a crafted GET request to the specified target URL, exploiting a vulnerability in the application's handling of user input within the 'text' parameter. The payload utilizes Python's class and method reflection to execute the command 'cat flag.txt', attempting to read and print the contents of a 'flag.txt' file on the server.
 
 ## More Information
 
-[Host Header Attacks](https://portswigger.net/web-security/host-header)
+[SSTI in Flask(Jinja2)](https://kleiber.me/blog/2021/10/31/python-flask-jinja2-ssti-example/)
