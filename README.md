@@ -15,8 +15,8 @@ Explore a variety of web challenges ranging from SSTI, web cache poisoning, SQL 
 
 |No.|Column 1|Column 2|Column 3|
 |:-:|:-------:|:-------:|:-------:|
-|1. |[Easter Bunny](/Easter_Bunny)|[Baby Interdimensional Internet](/BII_exploit.py)|[Cult of Pickles](Cult_of_Pickles)|
-|2. |[Gunship](/gunship_exploit.py)|[Spookifier](/spookifier_exploit.req)|
+|1. |[Easter Bunny](/web/Easter_Bunny)|[Baby Interdimensional Internet](/web/Baby_interdimensional_Internet)|[Cult of Pickles](web/Cult_of_Pickles)|
+|2. |[Gunship](/web/Gunship)|[Spookifier](/web/Spookifier)|
 </details>
 
 ## Usage
