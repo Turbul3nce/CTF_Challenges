@@ -1,4 +1,4 @@
-# Pickle Deserialization => SQL Injection
+# User Controlled Python Exec()
 
 ## Description
 
@@ -20,9 +20,9 @@ With this, we can craft our own malcious recipe that will be passed to the exec(
 
 ## Exploit
 
-This exploit script abuses two vulnerabilities, SQL injection and insecure deserialization in the web application. It creates a specially crafted payload using Python's pickle module, which is then serialized, base64 encoded, and appended to a URL parameter during a GET request. The payload, when deserialized on the server side, invokes the os.system method with a command (cat flag.txt > application/static/flag.txt), allowing us to read the contents of the 'flag.txt' file on the server. The script demonstrates exploitation by chaining together two vulnerabilities and retrieving the contents of the exploited file from the target URL.
+In the initial phase, it makes a POST request to the root route, manipulating custom ingredients and measurements. The second part crafts our payload within the 'measurements' parameter. This payload uses the 'subprocess' module to execute a specified command ('cat flag'). Subsequently, the script sends a second POST request with this payload, triggering the execution of the command on the server. The printed response unveils the output of the executed command, revealing the flag.
 
 ## More Information
 
-[Pickle - Insecure Deserialization](https://blog.securelayer7.net/insecure-deserialization-attack-in-python-application/)
+[Hacking Python Applications](https://medium.com/swlh/hacking-python-applications-5d4cd541b3f1)
 
