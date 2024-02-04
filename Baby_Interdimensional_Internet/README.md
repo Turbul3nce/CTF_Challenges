@@ -18,6 +18,10 @@ This part of the source code tells me the measurements in the GET request are st
 Looking at the defined method, we can see that the exec() directly executes python code defined in the recipe.
 With this, we can craft our own malcious recipe that will be passed to the exec() and executed on the server. 
 
+## framework 
+
+- Flask
+  
 ## Exploit
 
 The detect script makes a POST request to the root route, manipulating custom ingredients and measurements to test identify control over the number through the exec(). The exploit script crafts our payload within the 'measurements' parameter. This payload uses the 'subprocess' module to execute a specified command ('cat flag'). Subsequently, the script sends a second POST request with this payload, triggering the execution of the command on the server. The printed response unveils the output of the executed command, revealing the flag.
