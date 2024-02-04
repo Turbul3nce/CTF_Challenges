@@ -8,12 +8,17 @@ Welcome to my solved WEB Challenges! This collection includes notes, files, and 
 
 Explore a variety of web challenges ranging from SSTI, web cache poisoning, SQL Injection, etc. Each directory contains the necessary files, write-ups, and additional notes for a deeper understanding.
 
+<details>
+<br>
+<summary> Web </summary>
+  
+|No.|Column 1|
 - [Easter Bunny](/Easter_Bunny)
 - [Baby Interdimensional Internet](/BII_exploit.py)
 - [Cult of Pickles](Cult_of_Pickles)
 - [Gunship](/gunship_exploit.py)
 - [Spookifier](/spookifier_exploit.req)
-
+</details>
 
 ## Usage
 
