@@ -21,4 +21,4 @@ Feel free to explore, learn, and contribute to this repository. If you have any 
 
 ## Acknowledgments
 
-A special thanks to the people in the HackTheBox forums for providing hints for various challeneges. 
+A special thanks to the people on HackTheBox forums for providing hints for various challeneges. Also, ChaGPT for writing any JavaScript. 
