@@ -14,7 +14,7 @@ This part of the source code tells me the measurements in the GET request are st
 ######        `garage = {}`
 ######        `try: exec(recipe, garage)`
 ######        `except: pass`
-##
+
 Looking at the defined method, we can see that the exec() directly executes python code that we provided in recipe variable.
 With this, we can craft our own malcious recipe that will be passed to the exec() and executed on the server. 
 
