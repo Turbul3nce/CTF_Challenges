@@ -9,7 +9,7 @@ After checking out the website, I notice there is a number that gets randomly ge
 ######         `recipe = '%s = %s' % (ingredient, request.form.get('measurements', ''))`
 ###
 This part of the source code tells me the measurements in the GET request are stored in recipe, which is later used as a parameter in calc(recipe).  
-######`def calc(recipe):`
+###### `def calc(recipe):`
 ######        `global garage`
 ######        `garage = {}`
 ######        `try: exec(recipe, garage)`
