@@ -1,7 +1,7 @@
 # HTB WEB Challenges 
 <p align="center">
 
-<img src="/assets/rosehacks.png"> 
+<img src="[/assets/rosehacks.pn](https://github.com/RosePwns/HTB_Challenges/blob/main/assets/rosehacks.PNG)g"> 
   
 </p>
 
