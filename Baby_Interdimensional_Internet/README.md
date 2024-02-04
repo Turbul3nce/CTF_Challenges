@@ -4,9 +4,9 @@
 
 After checking out the website, I notice there is a number that gets randomly generated everytime the page is refreshed. After checking the source code I see a reference to a /debug page. Going here exposed the vulnerable code. 
 ###
-`if request.method == 'POST':`
-        `ingredient = request.form.get('ingredient', '')`
-        `recipe = '%s = %s' % (ingredient, request.form.get('measurements', ''))`
+###### `if request.method == 'POST':`
+######        `ingredient = request.form.get('ingredient', '')`
+######        `recipe = '%s = %s' % (ingredient, request.form.get('measurements', ''))`
 ###
 This part of the source code tells me the measurements in the GET request are stored in recipe, which is later used as a parameter in calc(recipe).  
 `def calc(recipe):`
