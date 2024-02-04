@@ -11,7 +11,7 @@ Welcome to my solved HackTheBox Challenges! This collection includes notes, arti
 
 ## Challenges
 
-Explore a variety of web challenges ranging from SSTI, web cache poisoning, SQL Injection, etc. Each directory contains the necessary files, write-ups, and additional notes for a deeper understanding.
+Explore a variety of web challenges ranging from SSTI, web cache poisoning, SQL Injection, and more. Each directory contains the necessary files, write-ups, and additional notes for a deeper understanding.
 
 <details>
 <br>
