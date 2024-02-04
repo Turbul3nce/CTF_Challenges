@@ -10,7 +10,7 @@ Explore a variety of web challenges ranging from SSTI, web cache poisoning, SQL 
 
 <details>
 <br>
-<summary> Web </summary>
+<summary> Challenge by vuln </summary>
   
 
 |No.|Column 1|Column 2|Column 3|
