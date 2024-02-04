@@ -10,4 +10,4 @@ This exploit script abuses two vulnerabilities, SQL injection and insecure deser
 
 ## More Information
 
-[Pickle Insecure Deserialization](https://blog.securelayer7.net/insecure-deserialization-attack-in-python-application/)
+[Pickle - Insecure Deserialization](https://blog.securelayer7.net/insecure-deserialization-attack-in-python-application/)
