@@ -1,4 +1,4 @@
-# RTI > SSTI > RCE 
+# GO SSTI > RCE 
 
 ## Website 
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-So, the functionality of the seems to load and render templates either locally or remotely, depending on the ?use_remote= parameter. This leads me to want to check for SSTI vulnerability from the go file I gave you lied in the ability to load templates from any url that would be executed on the backend. I was able to set up a test.go file on my server with the contents {{.FetchServerInfo "cd /;ls -la"}}. Once the server loaded my go file it executed the specified commands on the server. Just for context this is a CTF. What type of vulnerabilities were displayed here?.
+So, the functionality of the application seems to load and render templates either locally or remotely, depending on the ?use_remote={true/false} parameter. This lead me to want to check for SSTI vulnerability. I was able to set up a test.go template on my server with the contents {{.FetchServerInfo "cd /;ls -la"}}. Once the server loaded and executed my template code, I recieved the contents of the / directory, revealing code execution Just for context this is a CTF. What type of vulnerabilities were displayed here?.
 
 ## Set Up
 
@@ -19,9 +19,9 @@ So, the functionality of the seems to load and render templates either locally o
 
 ## Exploit
 
-This Python script automates the exploitation of a server-side template injection (SSTI) vulnerability in a web application. It sends a GET request to a specified vulnerable URL, loading and executing an attacker-controlled template on the target server, resulting in remote code execution.
+This Python script automates the exploitation of a server-side template injectiony in the web application. It sends a GET request to a specified vulnerable URL, loading and executing our attacker-controlled template on the target server, resulting in remote code execution.
 
 ## More Information
 
-[Host Header Attacks](https://portswigger.net/web-security/host-header)
+[SSTI in GO](https://github.com/carlospolop/hacktricks/blob/master/pentesting-web/ssti-server-side-template-injection/README.md)
 
