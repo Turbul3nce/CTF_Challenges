@@ -3,6 +3,7 @@
 ## Description
 
 After checking out the website, I notice there is a number that gets randomly generated everytime the page is refreshed. After checking the source code I see a reference to a /debug page. Going here exposed the vulnerable code. 
+###
 `if request.method == 'POST':`
         `ingredient = request.form.get('ingredient', '')`
         `recipe = '%s = %s' % (ingredient, request.form.get('measurements', ''))`
