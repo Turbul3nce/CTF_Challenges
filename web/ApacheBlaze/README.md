@@ -1,4 +1,4 @@
-# GO SSTI > RCE 
+# HTML Smuggling > Apache Proxy > File Read 
 
 ## Website 
 
@@ -25,4 +25,4 @@ This Python script automates the exploitation of a server-side template injectio
 ```
 ## More Information
 
-[SSTI in GO](https://github.com/carlospolop/hacktricks/blob/master/pentesting-web/ssti-server-side-template-injection/README.md)
+[CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC/tree/main#internal-http-request-smuggling-via-header-injection)
