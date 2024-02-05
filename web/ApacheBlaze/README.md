@@ -6,7 +6,7 @@
 
 ## Description
 
-So, the functionality of the application seems to load and render templates either locally or remotely, depending on the ?use_remote={true/false} parameter. This lead me to want to check for SSTI vulnerability. After reviewing the source code provided by HackTheBox, we know it is using the Go templating language. I was able to set up a test.go template on my server with the contents {{.FetchServerInfo "cd /;ls -la"}}. Once the server loaded and executed my template code, I recieved the contents of the / directory, revealing code execution Just for context this is a CTF. What type of vulnerabilities were displayed here?.
+There is not a whole lot to this application. We're given the source code to look through. We can see the backend application code which basically checks for X-Forwarded-Host header to equal a certain value for us to be able to access the data behind click_topia endpoint. Although, we we try to make a request with tout host header set, we receive the same error. So, spinning up the application locally and debugging shows that our headers aren't arriving as expected and additional headers are being added to the request. Reviewing the Apache [mod_proxy](https://httpd.apache.org/docs/2.4/mod/mod_proxy.html) documentation shows why. "When acting in a reverse-proxy mode (using the ProxyPass directive, for example), mod_proxy_http adds several request headers in order to pass information to the origin server. These headers are: X-Forwarded-For, X-Forwarded-Host, and X-Forwarded-Server." Reviewing the httpd.conf shows Requests to /api/games/ are rewritten and proxied to http://127.0.0.1:8080/?game=$1, and the load balancer distributes traffic between http://127.0.0.1:8081 and http://127.0.0.1:8082 based on the specified load balancing method. Searching online reveals a CVE for HTML smuggling and a PoC. We are able to use this to retrieve the flag. More information on CVE-2023-25690 can be foun below.
 
 ## Set Up
 
@@ -19,3 +19,4 @@ So, the functionality of the application seems to load and render templates eith
 
 [CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC/tree/main#internal-http-request-smuggling-via-header-injection)
 <summary> The impact of this vulnerability is that it allows attackers to target and access internal applications that are meant to be hidden by the reverse proxy, potentially leading to unauthorized access, data leakage, or further exploitation.</summary>
+
