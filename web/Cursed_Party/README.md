@@ -1,6 +1,6 @@
 # XSS > CDN Abuse
 
-## website
+## Website
 
 <img src= "cursed_party_website.png">
 
