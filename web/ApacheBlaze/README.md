@@ -16,8 +16,14 @@ First of all, there is not a whole lot going on with this application. We're giv
 4. request before ebing url encoded:
   ```html
 GET /api/games/click_topia HTTP/1.1
+
 Host: dev.apacheblaze.local
+
+
+
 GET / HTTP/1.1
+
+Host: localhost:1337
 ```
 ## Exploit
 <img src= "exploited_html_)smuggling.PNG">
