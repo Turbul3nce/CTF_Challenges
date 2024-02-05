@@ -1,4 +1,4 @@
-# HTML Smuggling > Apache Proxy > File Read 
+# HTML Request Smuggling > Apache Mod_Proxy 
 
 ## Website 
 
