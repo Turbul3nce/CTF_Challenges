@@ -13,7 +13,7 @@ First of all, there is not a whole lot going on with this application. We're giv
 1. Burpsuite Repeater.
 2. Had to run the application locally for debugging purposes.
 3. Reading a lot of Apache documentation. 
-4. request before ebing url encoded:
+4. request before being url encoded:
   ```html
 GET /api/games/click_topia HTTP/1.1
 
