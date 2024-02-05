@@ -30,7 +30,7 @@ Host: localhost:1337
 
 ## More Information
 Some mod_proxy configurations on Apache HTTP Server versions 2.4.0 through 2.4.55 allow a HTTP Request Smuggling attack. Configurations are affected when mod_proxy is enabled along with some form of RewriteRule or ProxyPassMatch in which a non-specific pattern matches some portion of the user-supplied request-target (URL) data and is then re-inserted into the proxied request-target using variable substitution. For example, something like:
-```
+```python
 RewriteEngine on 
 RewriteRule "^/here/(.*)" "http://example.com:8080/elsewhere?$1"; [P] 
 ProxyPassReverse /here/ http://example.com:8080/
