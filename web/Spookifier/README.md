@@ -10,7 +10,7 @@ The website takes user input and spits it out in several different formats. The 
   
 ## Exploit
 
-It sends a crafted GET request to the specified target URL, exploiting a vulnerability in the application's handling of user input within the 'text' parameter. The payload utilizes Python's class and method reflection to execute the command 'cat flag.txt', attempting to read and print the contents of a 'flag.txt' file on the server.
+It sends a crafted GET request to the specified target URL, exploiting a vulnerability in the application's handling of user input within the 'text' parameter. The SSTI payload utilizes Python's class and method reflection to execute the command 'cat flag.txt', attempting to read and print the contents of a 'flag.txt' file on the server.
 
 ## More Information
 
