@@ -16,7 +16,7 @@ There isn't a whole lot to this website. Navigating to the application, we see a
 3. Had to review source code. 
 
 ## Exploit
-<img src= "burpsuite_repeater.PNG">
+<img src= "burp_repeater.PNG">
 
 ## More Information
 
