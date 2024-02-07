@@ -8,15 +8,15 @@ After checking out the website, I notice there is a number that gets randomly ge
 ######         `ingredient = request.form.get('ingredient', '')`
 ######         `recipe = '%s = %s' % (ingredient, request.form.get('measurements', ''))`
 ###
-This part of the source code tells me the measurements in the GET request are stored in recipe, which is later used as a parameter in calc(recipe).  
+This part of the source code tells me the recipe makes a GET request for the ingredient and measurements, which is later used as a parameter in calc(recipe).  
 ###### `def calc(recipe):`
 ######        `global garage`
 ######        `garage = {}`
 ######        `try: exec(recipe, garage)`
 ######        `except: pass`
 
-Looking at the defined method, we can see that the exec() directly executes python code defined in the recipe.
-With this, we can craft our own malcious recipe that will be passed to the exec() and executed on the server. 
+Looking at the defined method, we can see that the exec() executes any user input passed inside the recipe.
+With this, we can craft our own malcious recipe by adding a payload that will be passed to the exec() and executed on the server. 
 
 ## framework 
 
