@@ -27,7 +27,7 @@ Explore a variety of web challenges ranging from SSTI, web cache poisoning, SQL 
 
 ## Usage
 
-Feel free to explore, learn, and contribute to this repository. If you have any questions or improvements, open an issue or submit a pull request. Let's collaborate and enhance our skills together!
+Feel free to explore and learn with me. If you have any questions or improvements, open an issue or submit a pull request. Let's collaborate and enhance our skills together!
 
 ## Acknowledgments
 
