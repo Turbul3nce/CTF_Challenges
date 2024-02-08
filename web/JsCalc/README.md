@@ -17,7 +17,7 @@ On the backend of the NodeJS application, we can see the vulnerable code using e
 ## Set Up
 
 1. Burpsuite Repeater for testing quickly testing payloads:
-3. Had to review source code.  
+3. Source code review not really necessary.  
 4. payload:
   ```JSON
 {
