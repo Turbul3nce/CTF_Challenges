@@ -30,6 +30,8 @@ On the backend of the NodeJS application, we can see the vulnerable code using e
 
 ## More Information
 [NodeJS APIs](https://nodejs.org/api/os.html)
+<br>
 [CMDi in Node and JS](https://www.nodejs-security.com/blog/introduction-command-injection-vulnerabilities-nodejs-javascript/)
+<br>
 [Examples Preventioin](https://www.stackhawk.com/blog/nodejs-command-injection-examples-and-prevention/)
 <summary> The impact of this vulnerability is that it allows attackers to execute OS commands remotely.</summary>
