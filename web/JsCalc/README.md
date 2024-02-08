@@ -11,6 +11,7 @@ This was a very easy challenge that involved a NodeJS application taking unsanit
 ## Backend 
 
 On the backend of the NodeJS application, we can see the vulnerable code using eval() with user provided input without any sort of sanitization:
+<br>
 <img src= jscalc_backend.PNG>
 
 ## Set Up
