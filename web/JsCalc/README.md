@@ -29,8 +29,6 @@ On the backend of the NodeJS application, we can see the vulnerable code using e
 <img src= "jscalc_exploit.PNG">
 
 ## More Information
-
-## More Information
 [NodeJS APIs](https://nodejs.org/api/os.html)
 [CMDi in Node and JS](https://www.nodejs-security.com/blog/introduction-command-injection-vulnerabilities-nodejs-javascript/)
 [Examples Preventioin](https://www.stackhawk.com/blog/nodejs-command-injection-examples-and-prevention/)
