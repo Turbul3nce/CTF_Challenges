@@ -22,7 +22,7 @@ Explore a variety of web challenges ranging from SSTI, web cache poisoning, SQL 
 |:-:|:-------:|:-------:|:-------:|
 |1. |[Easter Bunny](/web/Easter_Bunny)|[Baby Interdimensional Internet](/web/Baby_Interdimensional_Internet)|[Cult of Pickles](web/Cult_of_Pickles)|
 |2. |[Gunship](/web/Gunship)|[Spookifier](/web/Spookifier)|[Render Quest](/web/Render_Quest/)|
-|3. |[ApacheBlaze](web/ApacheBlaze/)|[Cursed_Party](/web/Cursed_Party/)||[JSCalc](/web/JsCalc/)|
+|3. |[ApacheBlaze](web/ApacheBlaze/)|[Cursed_Party](web/Cursed_Party/)|[JSCalc](web/JsCalc/)|
 |4. |[ProxyAsAService](web/ProxyAsAService)
 </details>
 
