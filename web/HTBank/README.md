@@ -11,22 +11,25 @@
 ## Set Up
 
 1. Burpsuite Repeater.
-2. Had to run the application locally for debugging purposes.
-3. Reading a lot of Apache documentation. 
-4. Request before being url encoded:
+2. Read through the source code (unnecessary now that value needed is in the description).
+3. Read through the etherscan API documentation (unnecessary). 
+4. POST to /api/withdraw before being exploiting:
   ```html
-GET /api/games/click_topia HTTP/1.1
+-----------------------------55942694529039672783834867755
 
-Host: dev.apacheblaze.local
+Content-Disposition: form-data; name="account"
+value
 
+-----------------------------55942694529039672783834867755
 
-
-GET / HTTP/1.1
-
-Host: localhost:1337
+Content-Disposition: form-data; name="amount"
+value
+-----------------------------55942694529039672783834867755--
 ```
+
 ## ChatGPT
-<img src= "chatgpt_exploit.PNG">
+Looking for vulnerabilities inside the source code with the help of ChatGPT:
+<img src= "chatgpt_exploitation.PNG">
 
 
 
