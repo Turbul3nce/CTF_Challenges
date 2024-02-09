@@ -13,7 +13,7 @@ I found this challenge to be pretty fun. I was lucky enough to attempt it after 
 1. Burpsuite proxy and Repeater.
 2. Read through the source code (unnecessary now that value needed is in the description).
 3. Read through the etherscan API documentation (unnecessary). 
-4. POST to /api/withdraw before being exploiting:
+4. POST to /api/withdraw before being exploited:
   ```html
 -----------------------------55942694529039672783834867755
 
