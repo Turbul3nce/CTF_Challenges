@@ -1,8 +1,8 @@
-# HTTP Parameter Pollution
+# WAF Bypass > SQL Injection
 
 ## Website 
 
-<img src= "website.PNG">
+<img src= "website.png">
 
 ## Description
 
@@ -30,14 +30,14 @@ value
 ## Burpsuite
 Looking for vulnerabilities inside the source code with the help of ChatGPT:
 <br>
-<img src= "chatgpt_exploitation.PNG">
+<img src= "chatgpt_exploitation.png">
 
 
 
 ## Exploit
 Automating exploitation with SQLMap: 
 <br>
-<img src= "exploiting_with_sqlmap.PNG">
+<img src= "exploiting_with_sqlmap.png">
 
 ## More Information
 [HTTP Parameter Pollution](https://book.hacktricks.xyz/pentesting-web/parameter-pollution)
