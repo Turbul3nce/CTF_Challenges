@@ -6,7 +6,7 @@
 
 ## Description
 
-
+This was a fun web challenge. I'll keep it short. The website takes user input in the search parameter. This input is passed to one of two functions depeneding on the Transfer-Encoding. It goes to safe_query if we aren't using chunked transfer-encoding. Safe_query uses a parameterized statement and implements a WAF that filters based on SQL query strings, essentially blocking any SQL injection attempts. But, if we have "Transfer-Encoding: chunked" set, our input is passed
 
 ## Set Up
 
@@ -22,7 +22,7 @@ Testing chunked transfer encoding using Burpsuite. Looking for an Internal Serve
 
 
 ## Exploit
-Automating the SQLi exploitation with SQLMap: 
+Saved Burpsuite request to a file. Automated the SQLi exploitation using SQLMap: 
 <br>
 <img src= "exploit_withj_sqlmap.png">
 
