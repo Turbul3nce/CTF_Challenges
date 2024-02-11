@@ -11,7 +11,7 @@ Welcome to my solved HackTheBox Challenges! This collection includes notes, arti
 
 ## Challenges
 
-Explore a variety of web challenges ranging from SSTI, web cache poisoning, SQL Injection, and more. Each directory contains the necessary files, write-ups, and additional notes for a deeper understanding.
+Explore a variety of web challenges ranging from web, reversing, binary exploitation and more. Each directory contains the necessary files, write-ups, and additional notes for a deeper understanding.
 
 <details>
 <br>
@@ -24,6 +24,13 @@ Explore a variety of web challenges ranging from SSTI, web cache poisoning, SQL 
 |2. |[Gunship](/web/Gunship)|[Spookifier](/web/Spookifier)|[Render Quest](/web/Render_Quest/)|
 |3. |[ApacheBlaze](web/ApacheBlaze/)|[Cursed_Party](web/Cursed_Party/)|[JSCalc](web/JsCalc/)|
 |4. |[ProxyAsAService](web/ProxyAsAService)|[HTBank](web/HTBank)|[0xBOverchunked](web/0xBOverchunked)|
+
+<summary> REVERSING </summary>
+  
+
+|No.|Column 1|Column 2|Column 3|
+|:-:|:-------:|:-------:|:-------:|
+|1. |[Simple Encryptor](/reversing/Simple_Encryptor)|
 </details>
 
 ## Usage
