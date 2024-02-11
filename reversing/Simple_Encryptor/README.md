@@ -28,9 +28,9 @@ To solve this challenge, I followed these steps:
 
 To decrypt the flag, follow these steps:
 
-1. Compile the `decryptor.c` program using a C compiler:
+1. Compile the `simple_decryptor.c` program using a C compiler:
    ```bash
-   gcc -o decryptor decryptor.c
+   gcc -o simple_decryptor simple_decryptor.c
 2. Run the decryptor:
    ```bash
-   ./decryptor
+   ./simple_decryptor
