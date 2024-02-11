@@ -17,7 +17,11 @@ To solve this challenge, I followed these steps:
 ## ChatGPT Explanation
 "Explain the following main function:"
 
-<img src= 
+<img src= gpt_main_explained.PNG> 
+
+"How do we go about decrypting the flag:"
+
+<img src= gpt_reverse_code.PNG>
 
 ## Repository Structure
 
