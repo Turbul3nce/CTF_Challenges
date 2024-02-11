@@ -23,7 +23,6 @@ To solve this challenge, I followed these steps:
 
 <img src= gpt_reverse_code.PNG>
 
-## Repository Structure
 
 ## Instructions
 
@@ -32,3 +31,6 @@ To decrypt the flag, follow these steps:
 1. Compile the `decryptor.c` program using a C compiler:
    ```bash
    gcc -o decryptor decryptor.c
+2. Run the decryptor:
+   ```bash
+   ./decryptor
