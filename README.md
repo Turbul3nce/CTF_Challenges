@@ -24,10 +24,13 @@ Explore a variety of web challenges ranging from web, reversing, binary exploita
 |2. |[Gunship](/web/Gunship)|[Spookifier](/web/Spookifier)|[Render Quest](/web/Render_Quest/)|
 |3. |[ApacheBlaze](web/ApacheBlaze/)|[Cursed_Party](web/Cursed_Party/)|[JSCalc](web/JsCalc/)|
 |4. |[ProxyAsAService](web/ProxyAsAService)|[HTBank](web/HTBank)|[0xBOverchunked](web/0xBOverchunked)|
-
-<summary> REVERSING </summary>
+</details>
   
+<details>
+<br>
+<summary> REVERSING </summary>
 
+  
 |No.|Column 1|Column 2|Column 3|
 |:-:|:-------:|:-------:|:-------:|
 |1. |[Simple Encryptor](/reversing/Simple_Encryptor)|
