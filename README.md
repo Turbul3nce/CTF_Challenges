@@ -36,6 +36,10 @@ Explore a variety of challenges ranging from web, reversing, binary exploitation
 |1. |[Simple Encryptor](/reversing/Simple_Encryptor)|
 </details>
 
+## TEAM 
+
+### Zer0D@y
+
 ## Usage
 
 Feel free to explore and learn with me. If you have any questions or improvements, open an issue or submit a pull request. Let's collaborate and enhance our skills together!
