@@ -14,7 +14,7 @@ To solve this challenge, I followed these steps:
 
 1. Ran file on the binary to identify the type of file we are looking at.
 2. Next, I ran strings on the binary to print all the associated strings.
-3. Lastly, I ran hexdump: ```bash hexdump -C binary``` which revealed the password/flag in the hex code. 
+3. Lastly, I ran hexdump: ```hexdump -C binary``` which revealed the password/flag in the hex code. 
 
 ## Ghidra 
 We can also see the results in Ghidra. By follwing the Ivalid Instruction Exception to the UD2 instruction, which reveals the hardcoded password.
