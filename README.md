@@ -24,6 +24,7 @@ Explore a variety of challenges ranging from web, reversing, binary exploitation
 |2. |[Gunship](/web/Gunship)|[Spookifier](/web/Spookifier)|[Render Quest](/web/Render_Quest/)|
 |3. |[ApacheBlaze](web/ApacheBlaze/)|[Cursed_Party](web/Cursed_Party/)|[JSCalc](web/JsCalc/)|
 |4. |[ProxyAsAService](web/ProxyAsAService)|[HTBank](web/HTBank)|[0xBOverchunked](web/0xBOverchunked)|
+|5. |[LoveTok](web/LoveTok)|
 </details>
   
 <details>
