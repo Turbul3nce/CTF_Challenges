@@ -1,8 +1,8 @@
-# Reversing a Simple Encryptor
+# Reversing Ransomware
 
 This challenge involves decrypting a flag that was encrypted using a custom encryption algorithm implemented in C. The provided encrypted file (`flag.enc`) contains the encrypted flag and is encrypted using a seed-based encryption algorithm.
 
-## Solution Overview
+## Writeup
 
 To solve this challenge, I followed these steps:
 
