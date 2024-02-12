@@ -7,11 +7,11 @@
 
 ## Overview
 
-Welcome to my solved HackTheBox Challenges! This collection includes notes, artifacts, and exploits that I've used to tackle challenges on platforms like HackTheBox and other CTFs. Feel free to leave a star if you found a writeup helpful. 
+Welcome to my solved CTFs! This collection includes notes, artifacts, and exploits that I've used to tackle challenges on platforms like HackTheBox and other CTFs. Feel free to leave a star if you found a writeup helpful. 
 
 ## Challenges
 
-Explore a variety of web challenges ranging from web, reversing, binary exploitation and more. Each directory contains the necessary files, write-ups, and additional notes for a deeper understanding.
+Explore a variety of challenges ranging from web, reversing, binary exploitation and more. Each directory contains the necessary files, write-ups, and additional notes for a deeper understanding.
 
 <details>
 <br>
@@ -42,4 +42,4 @@ Feel free to explore and learn with me. If you have any questions or improvement
 
 ## Acknowledgments
 
-A special thanks to the people on HackTheBox forums for providing hints on various challeneges. Also, ChaGPT for writing any JavaScript. 
+A special thanks to the people on HackTheBox forums, my team members, and ChaGPT. 
