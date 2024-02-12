@@ -17,6 +17,6 @@ To solve this challenge, I followed these steps:
 3. Lastly, I ran hexdump: ```hexdump -C binary``` which revealed the password/flag in the hex code. 
 
 ## Ghidra 
-We can also see the results in Ghidra. By follwing the Ivalid Instruction Exception to the UD2 instruction, which reveals the hardcoded password.
+We can also see similar results in Ghidra. By follwing the Ivalid Instruction Exception to the UD2 instruction, which reveals the hardcoded password.
 
 <img src= ghidra.PNG> 
