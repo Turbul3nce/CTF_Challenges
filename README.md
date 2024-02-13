@@ -37,7 +37,7 @@ Explore a variety of challenges ranging from web, reversing, binary exploitation
 |1. |[Simple Encryptor](/reversing/Simple_Encryptor)|[Behind The Scenes](reversing/Behind_The_Scenes)|
 </details>
 
-## TEAM 
+## Team 
 
 ### Zer0D@y
 
