@@ -41,6 +41,8 @@ Explore a variety of challenges ranging from web, reversing, binary exploitation
 
 ### Zer0D@y
 
+1. R0sePwns
+
 ## Usage
 
 Feel free to explore and learn with me. If you have any questions or improvements, open an issue or submit a pull request. Let's collaborate and enhance our skills together!
