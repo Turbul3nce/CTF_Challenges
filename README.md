@@ -39,7 +39,7 @@ Explore a variety of challenges ranging from web, reversing, binary exploitation
 
 ## Team 
 
-### Zer0D@y
+#### Zer0D@y
 
 1. R0sePwns
 
