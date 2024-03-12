@@ -24,7 +24,7 @@ Explore a variety of challenges ranging from web, reversing, binary exploitation
 |2. |[Gunship](/web/Gunship)|[Spookifier](/web/Spookifier)|[Render Quest](/web/Render_Quest/)|
 |3. |[ApacheBlaze](web/ApacheBlaze/)|[Cursed_Party](web/Cursed_Party/)|[JSCalc](web/JsCalc/)|
 |4. |[ProxyAsAService](web/ProxyAsAService)|[HTBank](web/HTBank)|[0xBOverchunked](web/0xBOverchunked)|
-|5. |[LoveTok](web/LoveTok)|[EmptyExecution](web/Empty_Execution)|
+|5. |[LoveTok](web/LoveTok)|[EmptyExecution](web/Empty_Execution)|[Labyrinth Linguist](web/labyrinth_linguist)| 
 </details>
   
 <details>
@@ -37,9 +37,19 @@ Explore a variety of challenges ranging from web, reversing, binary exploitation
 |1. |[Simple Encryptor](/reversing/Simple_Encryptor)|[Behind The Scenes](reversing/Behind_The_Scenes)|
 </details>
 
+<details>
+<br>
+<summary> FORENSICS </summary>
+
+  
+|No.|Column 1|Column 2|Column 3|
+|:-:|:-------:|:-------:|:-------:|
+|1. |[Phreaky](/forensics/Phreaky)|[Pursue The Tracks](/reversing/pursue_the_tracks)|
+</details>
+
 ## Team 
 
-#### Zer0D@y
+#### NotARedTeam
 
 1. R0sePwns
 
