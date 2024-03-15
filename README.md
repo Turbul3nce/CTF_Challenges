@@ -7,7 +7,7 @@
 
 ## Overview
 
-Welcome to my solved CTFs! This collection includes notes, artifacts, and exploits that I've used to tackle challenges on platforms like HackTheBox and other CTFs. Feel free to leave a star if you found a writeup helpful. Also, if a writeup doesn't specify the CTF platform, there is a good chance it's from HackTheBox.
+Welcome to my solved CTFs! This collection includes notes and exploits that I've used to tackle challenges on platforms like HackTheBox and other CTFs. Feel free to leave a star if you found a writeup helpful. Also, if a writeup doesn't specify the CTF platform, there is a good chance it's from HackTheBox.
 
 ## Challenges
 
