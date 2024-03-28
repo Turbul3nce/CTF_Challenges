@@ -51,7 +51,6 @@ Explore a variety of challenges ranging from web, reversing, binary exploitation
 
 #### NotARedTeam
 
-1. R0sePwns
 
 ## Usage
 
